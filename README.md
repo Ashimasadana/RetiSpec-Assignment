@@ -29,7 +29,7 @@ Once `pip` has finished downloading the dependencies:
 (env)$ cd RetiSpec
 ```
 
-Update db connection configuration under Databases in settings.py inside RetiSpec.
+Update db connection configuration under Databases in settings.py inside RetiSpec folder.
 
 ```sh
 (env)$ python manage.py runserver
