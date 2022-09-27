@@ -6,7 +6,7 @@ The first thing to do is to clone the repository:
 
 ```sh
 $ git clone https://github.com/Ashimasadana/RetiSpec-Assignment.git
-$ cd retispec
+$ cd RetiSpec-Assignment
 ```
 
 Create a virtual environment to install dependencies in and activate it:
