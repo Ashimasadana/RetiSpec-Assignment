@@ -31,6 +31,13 @@ Once `pip` has finished downloading the dependencies:
 
 Update db connection configuration under Databases in settings.py inside RetiSpec folder.
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+
 ```sh
 (env)$ python manage.py runserver
 ```
